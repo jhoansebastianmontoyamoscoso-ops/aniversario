@@ -1,7 +1,7 @@
 
 
 const enlaceSpotify = "https://open.spotify.com/playlist/7GJ2SA3cqqIZv2fLgvtNUA?si=MRY75wMsSR298xQRXyJ-2w&utm_source=copy-link&pi=WHNYJJXJTPSy6";
-
+const enlaceRegalo = "https://jhoansebastianmontoyamoscoso-ops.github.io/Regalo-2/";
 const paginas = document.querySelectorAll(".pagina");
 
 let paginaActual = 0;
@@ -228,7 +228,11 @@ function crearCorazon() {
 
 setInterval(crearCorazon, 2000);
 
+const botonRegalo = document.getElementById("botonRegalo");
 
+botonRegalo.addEventListener("click", function () {
+    window.open(enlaceRegalo, "_blank");
+});
 
 
 
