@@ -1020,3 +1020,28 @@ body {
     }
 }
 
+.boton-regalo {
+    display: block;
+    margin: 25px auto 0;
+    padding: 12px 28px;
+    border: 2px solid #ff4f9a;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #ff2f7d, #ff4fa3);
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 47, 125, 0.6);
+    transition: all 0.3s ease;
+}
+
+.boton-regalo:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px rgba(255, 79, 163, 0.9);
+    background: linear-gradient(135deg, #ff4fa3, #ff2f7d);
+}
+
+.boton-regalo:active {
+    transform: scale(0.96);
+}
